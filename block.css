@@ -2,7 +2,7 @@
     --Rojo: #ff0101;
     --Rojo-Oscuro: #8b0000;
     --Negro: #000000;
-    --Gris: #a8a8a8;
+    --Gris: #4d4d4d;
     --Verde: #22ff00;
     --Verde-Oscuro: #009402;
     --Azul: #001eff;
@@ -17,4 +17,45 @@
     --Verde-Menta: #00ffbf;
     --Rosa-Rojo: #ff0084;
     --Azul-A: #0f4282;
+    --color-degradado: linear-gradient(135deg, #0f4282, #9d00ff);
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+body { 
+    background: var(--color-degradado);
+}
+
+.contenedor { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background-color: var(--Negro);
+}
+
+.formu { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.texto {
+    color: var(--Blanco); 
+    background: var(--color-degradado);
+    width: 100%;
+    min-height: 150px;
+}
+
+.lapiz { 
+    fill: var(--Blanco);
+    translate: transform(5rem, 15rem);
+}
+
+.boton { 
+    background-color: var(--Blanco);
 }
