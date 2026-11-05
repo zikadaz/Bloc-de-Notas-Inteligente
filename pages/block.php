@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Block de notas</title>
-    <link rel="stylesheet" href="block.css">
+    <script type= "module" src="../script/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/block.css">
 </head>
 <body>
     <div class="contenedor">
@@ -23,11 +24,10 @@
   <path d="M4.5 13.5l4 4" />
   <path d="M21 15v4h-8l4 -4l4 0" />
 </svg>
-
-    <form class="formu" action="index.php" method="POST">
-        <textarea placeholder="Escribe algo" class="texto" name="contenido" rows="5" cols="30"></textarea>
+    <form class="formu" action="block.php" method="POST">
+        <textarea placeholder="Escribe algo" class="texto" name="contenido" id="contenido" rows="5" cols="30"></textarea>
         <br>
-        <button class="boton" type="submit">Guardar nota</button>
+        <button class="boton" type="submit" id="submit-content">Guardar nota</button>
         <br>
     </form>
     </div>
