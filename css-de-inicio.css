@@ -1,0 +1,83 @@
+:root { 
+    --Rojo: #ff0101;
+    --Rojo-Oscuro: #8b0000;
+    --Negro: #000000;
+    --Gris: #4d4d4d;
+    --Verde: #22ff00;
+    --Verde-Oscuro: #009402;
+    --Azul: #001eff;
+    --Celeste: #00ddff;
+    --Amarillo: #fff200;
+    --Naranja: #ff7700;
+    --Rosado: #ff00bb;
+    --Morado: #9d00ff;
+    --Blanco: #ffffff;
+    --Dorado: #a9986d;
+    --Beige: #fff7cf;
+    --Verde-Menta: #00ffbf;
+    --Rosa-Rojo: #ff0084;
+    --Azul-A: #0f4282;
+    --color-degradado: linear-gradient(135deg, #0f4282, #9d00ff);
+    --color-degradado1: linear-gradient(135deg, #6600ff, #fefeff);
+    --color-degradado2: linear-gradient(135deg, #0f4282, #9d00ff);
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contenedor-principal { 
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.imagen-space { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.formulario { 
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    width: 40%;
+    padding: 2rem;
+    background: var(--color-degradado1);
+    border-radius: 1rem;
+    z-index: 2;
+}
+
+.titulo-bienvenida { 
+    color: var(--Blanco);
+    font-size: 2.4rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rba(0, 0, 0, 0.6);
+}
+
+.formu { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.botonsito { 
+    background-color: var(--Verde-Menta);
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+}

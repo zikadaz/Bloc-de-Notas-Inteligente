@@ -30,6 +30,6 @@
         <button class="boton" type="submit">Guardar nota</button>
         <br>
     </form>
-    <div>
+    </div>
 </body>
 </html>
