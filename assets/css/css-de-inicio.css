@@ -81,3 +81,9 @@ body {
     border: none;
     border-radius: 0.5rem;
 }
+
+.seyral { 
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 83.1%;
+}
